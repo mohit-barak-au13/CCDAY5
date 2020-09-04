@@ -1,0 +1,20 @@
+Q 1: Explain in detail what happens when you type www.google.com.
+
+1. The browser checks the cache for a DNS record to find the corresponding IP address of www.google.com
+2. if the requested URL is not in the cache, ISP's DNS server inititates a DNS query to find the IP address of the server that hosts www.google.com
+3. The browser inititates a TCP connection with the server.
+4. The browser sends an HTTP request to the webserver.
+5. The servers handles the requestand sends back a response.
+6. The server sends out an HTTP response.
+7. The browser displays the HTML content.
+
+Q 2: what is the diffrence between vertical and horizontal scaling ?
+
+Vertical Scaling :
+
+Where you could add more hardware to the existing machine(RAM and hard drives) but you are limited to capacity of your actual machine.
+Horizontal Scaling :
+
+Where you could add more machines to your environment. This requires planning and making sure you have resources available as 
+well as making sure your architecture can handles the scalability.
+Load balancers are used here to balance the load to and from the machines.
