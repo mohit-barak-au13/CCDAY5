@@ -1,0 +1,27 @@
+Operators in Python covered in class and a brief details about those operators :-
+
+Arithmatic Operators:
+
+1: "+" = When we want to add to numbers we use this operator.
+2: "-" = When we perform subtraction between two numbers.
+3: "/" = When we divide a number by another number. It perform normal division and also gives float value.
+4: "//"= This is an integer division because it gives integer value after divisionnot any float value.
+5: "*" = We perform multiplication function between two numbers with this operator (eg. 5*6.)
+6: "**"= This operator provide an indices to a number (eg. a**3=a is to the power 3)
+7: "%" = This operator provides remainder value after division.
+
+Comaprison Operators:
+
+8:  ">"    = Greater than - True if left value is greater than right(eg. 5 > 2 It is true).
+9:  ">="   = Greater than or equals to - When left value is greater or equals to the right(a>=b).
+10: "<"    = Less than    - True if left value is less than the right(eg. 4 < 8 it is true).
+11: "<="   = Less than or equals to - When right hand value is greater than or equals to the left hand value(eg. a<=b).
+12: "=="   = Equals to    - True if both values are equal(eg. 8==8).
+13: "!="   = Not equals to- True if both the values are not equal.
+
+
+Logical Operators:
+
+"and"  = This operator can be used with boolean values and used in between boolean(eg. (2<5) and (5<9) Output is true).
+"or"   = This operator gives true value if either of the operation is true(eg.(2>7) or (2<7) Output is true).
+"not"  = True if operand is false or vice versa.
