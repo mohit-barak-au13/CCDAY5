@@ -1,0 +1,46 @@
+Q1 : Write the calculator program which will take input from users two numbers
+     And will ask them to type
+     0 for addition
+     1 for subtraction
+     2 for multiplication
+     3 for division
+     And will print the result?
+
+
+a = int(input("Enter a number      :"))
+b = int(input("Enter second number :"))
+print("Which operation you would like to do....")
+print("press 0 for addition")
+print("press 1 for subtraction")
+print("press 2 for multiplication")
+print("press 3 for divison")
+
+x = int(input("Give the digit :"))
+if(x==0):
+    sum = a+b
+    print("Addition of both the numbers is :",sum)
+elif(x==1):
+    subtraction = a-b
+    print("Subtraction of both the numbers is :",subtraction)
+elif(x==2):
+    multiplication = a*b
+    print("Multiplication of both numbers is :",multiplication)
+elif(x==3):
+    division = a/b
+    print("Division of both numbers is :",division)
+
+
+Question 2: Explain range in python with various examples ?
+
+Ans : The range() function returns a sequence of numbers, starting from 0 by default, 
+      and increments by 1 (by default), and stops before a specified number.
+      Syntax: range (start, stop, step)   
+      Example:-
+      list(range(0,5)) will print 0,1,2,3,4      (In this range by default step will be 1)
+      list(range(0,10,2)) will print 0,2,4,6,8   (In this range the steps will take gap of 2 in range)
+      list(range(10,0,-2)) will print 10,8,6,4,2 (In this range the steps will take gap of 2 but in negative)
+
+Question 3: What will be the result of..
+            int(6.6) + int(4.9) = ?
+
+Ans : The result will be false because we can not store float value in int.
